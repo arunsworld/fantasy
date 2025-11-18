@@ -32,7 +32,7 @@ type ProviderOptions struct {
 
 // ReasoningData represents reasoning data for OpenAI-compatible provider.
 type ReasoningData struct {
-	ReasoningContent string `json:"reasoning_content"`
+	ReasoningContent string `json:"reasoning"`
 }
 
 // Options implements the ProviderOptions interface.
